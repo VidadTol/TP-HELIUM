@@ -1,0 +1,150 @@
+/* Importation des polices via Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@500&display=swap");
+
+/* Styles globaux appliqués à tous les éléments */
+* {
+  font-family: "Inter", sans-serif; /* Définition de la police par défaut */
+  margin: 0; /* Suppression des marges par défaut */
+  padding: 5px; /* Ajout d'un espacement interne par défaut */
+  box-sizing: border-box; /* Inclus les bordures dans les dimensions */
+}
+
+/* Supprime les puces des listes */
+li {
+  list-style: none;
+}
+
+/* Définition de la taille du texte des paragraphes */
+p {
+  font-size: 0.8rem;
+}
+
+/* Style du corps du document */
+body {
+  min-height: 100vh; /* Définit une hauteur minimale pour remplir l'écran */
+  background: rgb(29, 29, 29); /* Couleur de fond sombre */
+  color: rgb(250, 250, 250); /* Couleur du texte en blanc cassé */
+}
+
+/* Style de la barre de navigation */
+nav {
+  display: flex; /* Affiche les éléments en ligne */
+  justify-content: space-between; /* Espace les éléments uniformément */
+  align-items: center; /* Centre les éléments verticalement */
+  padding: 10px 20px; /* Ajoute un espacement interne */
+}
+
+/* Style des listes dans la barre de navigation */
+nav ul {
+  display: flex; /* Affiche les éléments en ligne */
+  width: 50%; /* Définit une largeur pour la liste */
+  justify-content: space-between; /* Espace les éléments uniformément */
+}
+/* Style des liens dans la barre de navigation */
+nav ul li:hover {
+  color: rgb(95, 4, 170); /* Change la couleur au survol */
+  background: black; /* Couleur de fond au survol */
+  transition: 0.4s ease; /* Transition douce pour le changement de couleur */
+  cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Style de l'en-tête */
+.header {
+  display: flex; /* Affiche les sections en ligne */
+  justify-content: space-around; /* Espace les sections uniformément */
+  margin: 30px auto; /* Ajoute une marge autour de l'en-tête */
+}
+
+/* Partie gauche de l'en-tête */
+.header-left {
+  display: flex; /* Affiche les éléments en ligne */
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  width: 50%; /* Définit une largeur pour la partie gauche */
+}
+
+/* Style du titre principal */
+h1 {
+  font-size: 5rem; /* Définit une grande taille de texte */
+}
+
+/* Style pour les sous-titres dans la partie gauche de l'en-tête */
+.header-left-container h3 {
+  color: #474dff; /* Couleur bleue pour les sous-titres */
+  font-size: 1.8rem; /* Taille des sous-titres */
+}
+
+/* Partie droite de l'en-tête */
+.header-right {
+  width: 50%; /* Définit une largeur pour la partie droite */
+}
+
+/* Style des images dans l'en-tête */
+#modem {
+  width: 100%; /* Définit la largeur maximale de l'image */
+}
+
+/* Section des informations */
+.infos {
+  display: flex; /* Affiche les sections en ligne */
+  background: rgb(10, 10, 10); /* Couleur de fond sombre */
+  border-radius: 10px; /* Ajoute des coins arrondis */
+}
+
+/* Partie gauche de la section des informations */
+.infos-left {
+  width: 33%; /* Définit une largeur pour la partie gauche */
+}
+
+/* Conteneur des boutons dans les informations */
+.btn-container {
+  display: flex; /* Affiche les boutons en ligne */
+  flex-direction: column; /* Aligne les boutons verticalement */
+  justify-content: space-around; /* Espace les boutons uniformément */
+}
+
+/* Style des boutons */
+button {
+  border: none; /* Supprime les bordures par défaut */
+  background: #474dff; /* Couleur de fond bleu */
+  color: white; /* Couleur du texte en blanc */
+  width: 150px; /* Largeur des boutons */
+  padding: 10px 0; /* Espacement interne des boutons */
+  border-radius: 10px; /* Coins arrondis */
+  font-weight: bold; /* Texte en gras */
+  letter-spacing: 1px; /* Espacement entre les lettres */
+  margin: 5px; /* Marges autour des boutons */
+}
+
+button:hover {
+  color: rgb(95, 4, 170); /* Change la couleur au survol */
+  background: black; /* Couleur de fond au survol */
+  transition: 0.4s ease; /* Transition douce pour le changement de couleur */
+  cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Partie droite de la section des informations */
+.infos-right {
+  width: 67%; /* Définit une largeur pour la partie droite */
+}
+
+/* Section des investisseurs */
+.investors {
+  display: flex; /* Affiche les éléments en ligne */
+  align-items: center; /* Centre les éléments verticalement */
+  justify-content: center; /* Centre les éléments horizontalement */
+  height: 80%; /* Définit une hauteur proportionnelle */
+}
+
+/* Conteneur des images des investisseurs */
+.img-container {
+  display: flex; /* Affiche les images en ligne */
+  align-items: center; /* Centre les images verticalement */
+  justify-content: space-around; /* Espace les images uniformément */
+  width: 100%; /* Largeur maximale du conteneur */
+}
+
+/* Style des images dans le conteneur */
+.img-container img {
+  height: 60px; /* Définit la hauteur des images */
+}
